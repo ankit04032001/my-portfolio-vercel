@@ -15,5 +15,5 @@ export const personalData = {
   geeksforgeeks: "https://www.geeksforgeeks.org/profile/ankitkumarshawmotog3",
   devto: "https://dev.to/ankitkumarshaw",
   devUsername: "",
-  resume: "https://drive.google.com/file/d/1keHUMfI2DfSTJYa2h4fyyYaHHZ6gfqdx/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1TVD8SVuSGRJzVeG3tIyTmyS4CgP6ByOc/view"
 }
