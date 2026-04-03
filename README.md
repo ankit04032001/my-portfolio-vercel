@@ -4,7 +4,7 @@ A modern, responsive portfolio built with Next.js 16, React 19, and Tailwind CSS
 
 ## 🌐 Live Demo
 
-Visit my portfolio: [https://your-portfolio-url.com](https://ankit0403-portfolio.vercel.app/)
+Visit my portfolio: [ankit0403-portfolio.vercel.app](https://ankit0403-portfolio.vercel.app/)
 
 ## Prerequisites
 
