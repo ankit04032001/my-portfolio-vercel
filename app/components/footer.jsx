@@ -17,7 +17,7 @@ function Footer() {
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="#"
+              href="https://github.com/ankit04032001/my-portfolio-vercel"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
               title="View Source Code"
             >
