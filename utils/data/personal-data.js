@@ -7,13 +7,13 @@ export const personalData = {
   phone: '+91 7980350655',
   address: 'Bangalore, India',
   github: 'https://github.com/ankit04032001',
-  facebook: 'https://www.facebook.com/',
+  facebook: '',
   linkedIn: 'https://www.linkedin.com/in/ankit-kumar-shaw-9bbb43229/',
-  twitter: 'https://twitter.com/',
-  stackOverflow: 'https://stackoverflow.com/',
+  twitter: '',
   leetcode: "https://leetcode.com/u/ankit_858294/",
   geeksforgeeks: "https://www.geeksforgeeks.org/profile/ankitkumarshawmotog3",
   devto: "https://dev.to/ankitkumarshaw",
   devUsername: "",
-  resume: "https://drive.google.com/file/d/1TVD8SVuSGRJzVeG3tIyTmyS4CgP6ByOc/view"
+  resume: process.env.NEXT_PUBLIC_RESUME_URL,
+  githubRepo: "https://github.com/ankit04032001/my-portfolio-vercel"
 }

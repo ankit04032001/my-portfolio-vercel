@@ -123,7 +123,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GCP</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">REST API Design</span>
+                <span className="text-amber-300">Generative AI</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Microservices Architecture</span>
                 <span className="text-gray-400">{"', '"}</span>

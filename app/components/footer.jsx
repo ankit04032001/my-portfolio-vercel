@@ -1,6 +1,7 @@
 // @flow strict
 import Link from 'next/link';
 import { FaGithub } from "react-icons/fa";
+import { personalData } from '@/utils/data/personal-data';
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="https://github.com/ankit04032001/my-portfolio-vercel"
+              href={personalData.githubRepo}
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
               title="View Source Code"
             >

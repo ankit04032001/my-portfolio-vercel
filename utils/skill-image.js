@@ -16,6 +16,12 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg';
 import python from '../app/assets/svg/skills/python.svg';
 import apigee from '../app/assets/svg/skills/apigee.svg';
 import restapi from '../app/assets/svg/skills/rest-api.svg';
+import fastapi from '../app/assets/svg/skills/fastapi.svg';
+import claude from '../app/assets/svg/skills/claude.svg';
+import openai from '../app/assets/svg/skills/openai.svg';
+import ml from '../app/assets/svg/skills/machine-learning.svg';
+import llm from '../app/assets/svg/skills/llm.svg';
+import deeplearning from '../app/assets/svg/skills/deep-learning.svg';
 
 
 
@@ -52,6 +58,18 @@ export const skillsImage = (skill) => {
       return kubernetes;
     case 'python':
       return python;
+    case 'fastapi':
+      return fastapi;
+    case 'claude':
+      return claude;
+    case 'openai':
+      return openai;
+    case 'machine learning':
+      return ml;
+    case 'llm':
+      return llm;
+    case 'deep learning':
+      return deeplearning;
     case 'apigee':
       return apigee;
     case 'rest api':

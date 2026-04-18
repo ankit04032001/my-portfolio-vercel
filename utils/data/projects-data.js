@@ -23,7 +23,7 @@ export const projectsData = [
         description: "Accomplished: Architected event-driven async notification delivery pipeline.\n\nAs measured by: Handles 5000+ notifications per second today.\nAchieved 100% deduplication and 85% failure reduction.\n\nBy doing: Built Kafka with twelve partition consumer groups.\nImplemented Redis SETNX and circuit breaker resilience patterns.\n\nResult: Eliminated back-pressure and enabled horizontal scaling easily.",
         tools: ['Java 21', 'Spring Boot', 'Apache Kafka', 'PostgreSQL', 'Redis', 'Resilience4j', 'Docker', 'Prometheus', 'Grafana'],
         role: 'Backend Developer',
-        code: 'https://github.com/ankit04032001/notification-service',
+        code: '',
         demo: '',
     },
     {
@@ -37,19 +37,27 @@ export const projectsData = [
     },
     {
         id: 5,
-        name: 'Movie Ticketing System',
-        description: 'Accomplished: Developed full-stack movie ticketing platform with team.\n\nAs measured by: Secured second place in hackathon competition.\nImplemented dynamic seat selection with real-time availability tracking.\n\nBy doing: Built Spring Boot APIs and normalized MySQL schema.\nHandled concurrent bookings to prevent double-booking scenarios entirely.\n\nResult: Delivered production-ready system in limited hackathon timeframe.',
-        tools: ['Java', 'Spring Boot', 'MySQL', 'REST API', 'JavaScript', 'HTML/CSS', 'JPA'],
-        role: 'Full Stack Developer',
+        name: 'askAnkit - AI Chatbot API',
+        description: `Accomplished: Engineered a production-grade AI chatbot REST API leveraging Retrieval-Augmented Generation with semantic vector search intelligence.\n\nAs measured by: Optimized to 800-1500 tokens per request. Sustains 5+ concurrent requests per minute with zero infrastructure cost.\n\nBy doing: Architected TF-IDF vector retrieval across multiple semantic chunks. Implemented multi-layered prompt injection defense with 80+ security patterns and Unicode normalization.\n\nResult: Deployed scalable zero-cost AI service leveraging Groq's Llama 3.1 8B model on Render.`,
+        tools: ['Python', 'FastAPI', 'RAG', 'TF-IDF', 'Groq LLM', 'Scikit-learn', 'Pydantic', 'Render'],
+        role: 'Backend Developer',
         code: '',
         demo: '',
-    }
+    },
+    // {
+    //     id: 6,
+    //     name: 'Movie Ticketing System',
+    //     description: 'Accomplished: Developed full-stack movie ticketing platform with team.\n\nAs measured by: Secured second place in hackathon competition.\nImplemented dynamic seat selection with real-time availability tracking.\n\nBy doing: Built Spring Boot APIs and normalized MySQL schema.\nHandled concurrent bookings to prevent double-booking scenarios entirely.\n\nResult: Delivered production-ready system in limited hackathon timeframe.',
+    //     tools: ['Java', 'Spring Boot', 'MySQL', 'REST API', 'JavaScript', 'HTML/CSS', 'JPA'],
+    //     role: 'Full Stack Developer',
+    //     code: '',
+    //     demo: '',
+    // }
 ];
 
 
-// Do not remove any property.
-// Leave it blank instead as shown below
 
+//-------- Template for adding new projects in the future --------
 // {
 //     id: 1,
 //     name: '',

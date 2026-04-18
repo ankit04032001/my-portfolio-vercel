@@ -14,6 +14,12 @@ export const skillsData = [
   'Docker',
   'Kubernetes',
   'Python',
+  'FastAPI',
+  'Claude',
+  'OpenAI',
+  'Machine Learning',
+  'LLM',
+  'Deep Learning',
   'Apigee',
   'REST API'
 ]
