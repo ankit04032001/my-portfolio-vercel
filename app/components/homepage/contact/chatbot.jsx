@@ -97,7 +97,7 @@ function Chatbot() {
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] overflow-hidden">
         
         {/* Chat Messages Area (Scrollable) */}
-        <div className="h-96 overflow-y-auto p-4 bg-[#0d1224] space-y-4">
+        <div className="chatbot-messages h-96 overflow-y-auto p-4 bg-[#0d1224] space-y-4">
           {messages.map((msg) => (
             <div
               key={msg.id}

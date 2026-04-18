@@ -8,6 +8,7 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
+import Certifications from "./components/homepage/certifications";
 
 export default async function Home() {
   const blogs = blogsData;
@@ -20,6 +21,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Certifications />
       <Blog blogs={blogs} />
       <ContactSection />
     </div>

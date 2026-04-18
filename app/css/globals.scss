@@ -35,3 +35,28 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+/* Chatbot scrollbar styling */
+.chatbot-messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chatbot-messages::-webkit-scrollbar-track {
+  background: #0d1224;
+  border-radius: 10px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #16f2b3 0%, #8228ec 100%);
+  border-radius: 10px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1affcc 0%, #a855f7 100%);
+}
+
+/* Firefox scrollbar */
+.chatbot-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #8228ec #0d1224;
+}
