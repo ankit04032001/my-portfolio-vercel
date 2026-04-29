@@ -11,7 +11,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Enterprise Leave Management System',
-        description: "Accomplished: Migrated legacy Python system to Spring Boot microservices.\n\nAs measured by: Achieved six times faster latency improvement.\nReduced p99 from 1.5 seconds to 250 milliseconds.\n\nBy doing: Eliminated N+1 queries and optimized connection pooling.\nImplemented Kafka decoupling and Resilience4j circuit breaker patterns.\n\nResult: Reduced third-party failures from 450 to 68.",
+        description: "Accomplished: Migrated legacy Python system to Spring Boot microservices.\n\nAs measured by: Achieved 20 times faster latency improvement.\nReduced p99 from 5 seconds to 250 milliseconds.\n\nBy doing: Eliminated N+1 queries and optimized connection pooling.\nImplemented Kafka decoupling and Resilience4j circuit breaker patterns.\n\nResult: Reduced third-party failures from 450 to 68.",
         tools: ['Java', 'Spring Boot', 'Apache Kafka', 'Redis', 'Hibernate', 'MySQL', 'Resilience4j', 'HikariCP', 'DLQ', 'Microservices'],
         role: 'Backend Platform Engineer',
         code: '',
